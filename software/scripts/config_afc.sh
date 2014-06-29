@@ -1,0 +1,4 @@
+#!/bin/sh
+./write-byte.py -a 0x00 -d 0x8000 -s 2
+./write-byte.py -a 0x04 -d 0xa
+./write-byte.py -a 0x03 -d 0xa
